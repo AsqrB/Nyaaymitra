@@ -3,7 +3,7 @@
 }
 
 .progress {
-    height: 5px;
+    height: 0.7rem;
     width: 100%;
 }
 
@@ -21,7 +21,7 @@
     background-color: var(--bs-secondary-bg); /* Default inactive color */
     color: var(--bs-secondary-color);
     height: 2rem;
-    transform: translate(-50%, -60%);
+    transform: translate(-50%, -70%);
     border-radius: 50%;
     width: 2rem;
     position: absolute; /* Position buttons absolutely */
