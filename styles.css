@@ -18,8 +18,8 @@
 .carousel-buttons button {
     cursor: pointer;
     border: none;
-    background-color: grey; /* Default inactive color */
-    color: white;
+    background-color: var(--bs-secondary-bg); /* Default inactive color */
+    color: var(--bs-secondary-color);
     height: 2rem;
     transform: translate(-50%, -60%);
     border-radius: 50%;
@@ -28,7 +28,8 @@
 }
 
 .carousel-buttons button.active {
-    background-color: #007bff; /* Active button color */
+    background-color: var(--bs-dark); /* Active button color */
+    color: var(--bs-light);
 }
 
 .carousel-item {
