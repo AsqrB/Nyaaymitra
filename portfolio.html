@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>About us</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
+    <link rel="stylesheet" href="styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <style>
         body {
@@ -91,16 +92,16 @@
         <span class="navbar-toggler-icon"></span>
       </button>
 
-      <div class="collapse navbar-collapse d-lg-flex justify-content-between" id="navbarsExample11">
+      <div class="collapse navbar-collapse d-lg-flex justify-content-between text-space" id="navbarsExample11">
         <ul class="navbar-nav col-lg-8 justify-content-lg-center">
           <li class="nav-item">
             <a class="nav-link" href="index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="about.html">About</a>
+            <a class="nav-link active" aria-current="page" href="#">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Services</a>
+            <a class="nav-link" href="portfolio.html">Services</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="team.html">Team</a>
@@ -119,7 +120,7 @@
     <!-- cover -->
     <section class="container-fluid row align-items-center justify-content-center" style="background-color: black; height:90vh;">
       <div class="cover-content col-12 col-md-6 text-center text-light">
-        <h1>Our project portfolio</h1>
+        <h1>About Us</h1>
         <!-- <p class="lead">Give your business a boost with a beautifully crafted homepage</p>
         <p class="lead">
           <a href="#" class="btn btn-lg btn-light fw-bold border-white bg-white">Learn more</a>
@@ -127,41 +128,144 @@
       </div>
     </section>
 
-    <!-- Individual cards -->
+    <!-- First text -->
+    <section class="row align-content-center mx-0 my-5">
+      <!-- <p class="fs-6 fw-light text-uppercase text-secondary text-center">What we believe in</p> -->
+      <p class="fs-3 fw-light text-dark text-center">We're a group of creative thiners who have built a business to change the world</p>
+    </section>
+
+  <!--  <hr class="w-50">
+
+    <!-- Descriptive section 
+    <section class="row align-content-center mx-0 my-5">
+      <p class="fs-6 fw-light text-secondary text-center">Far far away, behind the word, mountains, far from the countries Vokaila and Consonantia, therre live the blind texts. Seperated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It isa paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+      <p class="fs-6 fw-light text-secondary text-center">Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammer. The big Oxmox advised her not o do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn't listen.</p>
+      <p class="fs-6 fw-light text-secondary text-center">She packed her seven versalia, put her initials into the belt and made herself on the way. When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane.</p>
+      <!-- <p class="fs-3 fw-light text-dark text-center">We're a group of creative thiners who have built a business to change the world</p> 
+    </section> -->
+
+    <hr class="w-50">
+
+    <!-- Text only Cards -->
     <section class="row align-content-center mx-0 my-4">
-        <p class="fs-6 fw-light text-uppercase text-secondary text-center">our work</p>
-        <h1 class="fs-1 fw-light text-dark text-center">Team projects</h1>
-        <figure class="figure content-center p-5 pb-1">
-          <img src="assets/placeholder1.svg" class="figure-img img-fluid rounded" alt="placeholder" style="max-height:80vh; width:100%;">
-          <figcaption class="figure-caption mt-4">
-            <h1 class="fs-3 fw-light text-dark text-center">Project #1</h1>
-            <p class="fs-6 fw-light text-secondary text-center">Art direction</p>
-          </figcaption>
-        </figure>
-        <figure class="figure content-center p-5 pb-1">
-          <img src="assets/cover.svg" class="figure-img img-fluid rounded" alt="placeholder" style="max-height:80vh; width:100%;">
-          <figcaption class="figure-caption mt-4">
-            <h1 class="fs-3 fw-light text-dark text-center">Project #2</h1>
-            <p class="fs-6 fw-light text-secondary text-center">Product Design</p>
-          </figcaption>
-        </figure>
-        <figure class="figure content-center p-5 pb-1">
-          <img src="assets/placeholder2.svg" class="figure-img img-fluid rounded" alt="placeholder" style="max-height:80vh; width:100%;">
-          <figcaption class="figure-caption mt-4">
-            <h1 class="fs-3 fw-light text-dark text-center">Project #3</h1>
-            <p class="fs-6 fw-light text-secondary text-center">Animation</p>
-          </figcaption>
-        </figure>
+        <p class="fs-6 fw-light text-uppercase text-secondary text-center">What are we best at</p>
+        <h1 class="fs-1 fw-light text-dark text-center">Our services</h1>
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+            <div class="feature col py-3 px-5">
+              <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-3">
+                <img src="assets/shapes-ph.svg" class="img-fluid center" style="width: 100%; height: 100%; object-fit: cover;" alt="Featurette image">
+              </div>
+              <h3 class="fs-2 text-body-emphasis">Arbitration</h3>
+              <p>Arbitration resolves disputes by having an impartial third party (the arbitrator) make a final decision. It’s like a private court process where the arbitrator’s decision is binding.</p>
+            </div>
+            <div class="feature col py-3 px-5">
+              <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-3">
+                <img src="assets/square-ph.svg" class="img-fluid center" style="width: 100%; height: 100%; object-fit: cover;" alt="Featurette image">
+              </div>
+              <h3 class="fs-2 text-body-emphasis">Negotiation</h3>
+              <p>Negotiation helps people or parties communicate directly to settle a disagreement or reach an agreement. Both sides discuss and make compromises to find a solution that works for everyone.</p>
+            </div>
+            <div class="feature col py-3 px-5">
+              <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-3">
+                <img src="assets/scene-ph.svg" class="img-fluid center" style="width: 100%; height: 100%; object-fit: cover;" alt="Featurette image">
+              </div>
+              <h3 class="fs-2 text-body-emphasis">Mediation</h3>
+              <p>Mediation uses a neutral third party (the mediator) to help people in conflict reach an agreement. The mediator doesn’t decide the outcome but facilitates communication to help both parties find common ground.</p>
+            </div>
+            <div class="feature col py-3 px-5">
+              <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-3">
+                <img src="assets/scene-ph.svg" class="img-fluid center" style="width: 100%; height: 100%; object-fit: cover;" alt="Featurette image">
+              </div>
+              <h3 class="fs-2 text-body-emphasis">Criminal Law</h3>
+              <p>Criminal law aims to maintain justice, deter crime, and protect society by defining and punishing unlawful acts.</p>
+            </div>
+            <div class="feature col py-3 px-5">
+              <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-3">
+                <img src="assets/shapes-ph.svg" class="img-fluid center" style="width: 100%; height: 100%; object-fit: cover;" alt="Featurette image">
+              </div>
+              <h3 class="fs-2 text-body-emphasis">Civil Law</h3>
+              <p>Civil law resolves disputes between individuals or entities, focusing on compensation and rights rather than punishment for wrongdoing.</p>
+            </div>
+            <div class="feature col py-3 px-5">
+              <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-3">
+                <img src="assets/square-ph.svg" class="img-fluid center" style="width: 100%; height: 100%; object-fit: cover;" alt="Featurette image">
+              </div>
+              <h3 class="fs-2 text-body-emphasis">Consulting</h3>
+              <p>Consulting provides expert advice and solutions to organizations or individuals to improve performance, solve problems, or achieve specific goals.</p>
+            </div>
+          </div>
       </section>
-
+      
+    <!-- Progress Carousel -->
+    <section class="row align-content-center mx-0 my-4">
+        <!-- <p class="fs-6 fw-light text-uppercase text-secondary text-center">About us</p> -->
+        <h1 class="fs-1 fw-light text-dark text-center">Process Flow</h1>
+        <div class="container mt-5">
+            <div class="carousel-container w-90">
+                <div class="progress">
+                    <div id="progress-bar" class="progress-bar bg-dark" role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <div class="carousel-buttons">
+                    <!-- Carousel buttons will be dynamically added here -->
+                </div>
+                <div class="row mt-4" id="carousel-slides">
+                    <button class="carousel-control col-1 text-dark" id="prevBtn" aria-label="Previous">
+                        &#10094;
+                    </button>
+                    <div class="col-10" id="carousel-inner">
+                        <div class="carousel-item active row align-items-center p-3">
+                              <div class="col-md-7" style="height:fit-content;">
+                                  <h1>Registration</h1>
+                                  <p>Register your case and propose a settlement offer</p>
+                              </div>
+                              <div class="col-md-5">
+                                  <img src="assets/registration.png" class="d-block w-100" alt="Image 1">
+                              </div>
+                        </div>
+                        <div class="carousel-item row align-items-center p-3">
+                            <div class="col-md-7" style="height:fit-content;">
+                                  <h1>Intimation</h1>
+                                  <p>Offer is transmitted to the other party over email/SMS/WhatsApp/post with option to accept/propose counter-offer</p>
+                              </div>
+                              <div class="col-md-5">
+                                  <img src="assets/Intimation.png" class="d-block w-100" alt="Image 2">
+                              </div>
+                        </div>
+                        <div class="carousel-item row align-items-center p-3">
+                            <div class="col-md-7" style="height:fit-content;">
+                                  <h1>Negotiation</h1>
+                                  <p>AI-driven negotiation is facilitated based on offer and proposed by the parties</p>
+                              </div>
+                              <div class="col-md-5">
+                                  <img src="assets/negotiation.png" class="d-block w-100" alt="Image 3">
+                              </div>
+                        </div>
+                        <div class="carousel-item row align-items-center p-3">
+                            <div class="col-md-7" style="height:fit-content;">
+                              <h1>Settlement</h1>
+                              <p>Upon successful negotiations, the agreed terms are documented in a settlement agreement.</p>
+                            </div>
+                            <div class="col-md-5 d-flex justify-content-center">
+                              <img src="assets/settlement.png" class="d-block w-100" style="object-fit:cover;" alt="Image 4">
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control col-1 text-dark" id="nextBtn" aria-label="Next">
+                        &#10095;
+                    </button>
+                </div>
+            </div>
+        </div>
+      </section>
   </main>
-
+    
 <div class="container-fluid bg-dark">
   <footer class="py-3 mt-4 mb-0 border-top">
     <p class="text-center text-light">&copy; 2024 Nyaay Mitra </p>
     <!-- <p class="text-center text-body-secondary border-top pb-3 mb-3">Developed by: AsqrB Technologies</p> -->
   </footer>
 </div>
+<script src="script.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
