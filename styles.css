@@ -66,3 +66,9 @@
     transform: translateY(-50%); /* Adjust for vertical centering */
     z-index: 1;        /* Ensure the buttons are above the carousel items */
 }
+
+@media (min-width: 500px) { 
+    #progressCarousel { 
+        width: 70vw;
+    } 
+} 
