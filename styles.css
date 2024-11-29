@@ -38,7 +38,7 @@
 }
 
 .carousel-item.active {
-    display: flex;
+    display: flex !important;
 }
 
 .carousel-inner {
@@ -48,7 +48,7 @@
 
 .carousel-control-prev, .carousel-control-next, .carousel-control {
     position: relative;
-    display: flex !important;
+    display: flex;
     justify-content: center;
     align-items: center;
     background-color: rgba(255, 255, 255, 0.7);
