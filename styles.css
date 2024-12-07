@@ -59,11 +59,11 @@
 
 .abs {
     position: absolute;  /* Position the buttons absolutely */
-    top: 40%;            /* Center the buttons vertically */
+    top: 40% !important;            /* Center the buttons vertically */
     height: 2rem;
     width: 2rem;
     border-radius: 50%;
-    transform: translateY(-50%); /* Adjust for vertical centering */
+/*     transform: translateY(-50%); Adjust for vertical centering  */
     z-index: 1;        /* Ensure the buttons are above the carousel items */
 }
 
