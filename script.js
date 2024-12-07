@@ -1,5 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
-    const carouselItems = document.querySelectorAll('.carousel-item');
+    const progressCarousel = document.getElementById('progressCarousel')
+    const carouselItems = progressCarousel.querySelectorAll('.carousel-item');
     const progressBar = document.getElementById('progress-bar');
     const carouselButtonsContainer = document.querySelector('.carousel-buttons');
     let currentIndex = 0;
