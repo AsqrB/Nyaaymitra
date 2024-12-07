@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // update crousel on reponsiveness
     function updateCarouselClasses() {
-        if (window.innerWidth < 400) {
+        if (window.innerWidth < 500) {
             // Remove 'col-1' class from buttons
             prevBtn.classList.remove('col-1');
             nextBtn.classList.remove('col-1');
